@@ -8,6 +8,7 @@ Now includes:
 
 import json
 import os
+import task3
 
 # --- SAMPLE CATALOGUE (from Week 1 or simplified version) ---
 
@@ -125,7 +126,7 @@ def borrow_book():
 
 def return_book():
     print("\n--- Return a Book ---")
-
+    task3.return_book()
     # TODO: ask for member name
 
     # TODO: show borrowed books
